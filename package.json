@@ -29,7 +29,9 @@
     "hubot-hipchat": "~2.5.1-1",
     "hubot-sushiyuki": "0.0.2",
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
-    "hubot-cron": ">= 0.1.0"
+    "hubot-cron": ">= 0.1.0",
+    "cron": ">= 0.1.0",
+    "time": ">= 0.1.0"
   },
 
   "engines": {
