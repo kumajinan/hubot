@@ -27,7 +27,7 @@ module.exports = (robot) ->
     '定時退社の時間になりました。ああっ、もうダメッ！ぁあ…会社出るっ、会社出ますうっ！！'
   ]
   new cron '0 0 18 * * 1-5', () ->
-    user = {room: '#HubotRoom'}
+    user = {room: '#work'}
     say = random sayArr
     robot.send user, say
   , null, true
